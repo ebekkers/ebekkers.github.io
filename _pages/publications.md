@@ -1,53 +1,18 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: Publications
+description: 
+nav: true
 ---
+<!-- _pages/publications.md -->
+<div class="publications">
 
-{% include base_path %}
-{% if author.googlescholar %}
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-
-Preprints / Under Review
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'preprint' %}
-      <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
+Check out our people page to get an impression of the research done by the people at AMLab, and of course follow us on <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">Twitter <i class="fab fa-twitter"></i></a> to stay tuned! Below you'll find an archive our groups output in ML research, all the way back to 1994! <br><br>
 
 
-Journal Articles
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'journal' %}
-     <li> {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
+<!-- <h2>2022</h2> -->
+{% bibliography -f Bekkers %}
 
-Refereed Conference/Workshop Papers
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'conference' %} 
-  <li>    {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
 
-Monographs
----
-<ol>
-{% for post in site.publications reversed %}
-  {% if post.pubtype == 'thesis' %}
-   <li>   {% include archive-single.html %} </li>
-  {% endif %}
-{% endfor %}
-</ol>
+</div>

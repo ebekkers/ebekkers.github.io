@@ -1,16 +1,12 @@
 ---
-layout: archive
-title: "Teaching"
+layout: page
+title: Teaching
 permalink: /teaching/
-author_profile: true
-redirect_from:
-  - /resume
+description: 
+nav: true
 ---
 
-{% include base_path %}
+I'm teaching in the [Master AI](https://www.uva.nl/en/programmes/masters/artificial-intelligence/artificial-intelligence.html?cb) program of the [University of Amsterdam](https://www.uva.nl/en):
 
-
-Masters courses
-======
-* Machine Learning 1
-* Group Equivariant Deep Learning
+* [Machine Learning 1](https://uvaml1.github.io)
+* [Group equivariant deep learning](https://uvagedl.github.io) (part of [Deep Learning 2](https://uvadl2c.github.io))

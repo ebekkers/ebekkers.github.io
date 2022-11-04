@@ -1,0 +1,79 @@
+{%- assign person = include.person -%}
+
+
+<div class="clearfix">
+<div class="person-header">
+{%- if person.img %}
+<div class="person-headshot float-left">
+    {% include figure.html path=person.img title="profile picture" class="img-fluid rounded z-depth-1" %}
+</div>
+{%- endif %}
+<div class="person-info">
+    <h2>
+      {{person.first_name}}
+      {% if person.middle_names %}
+        {{person.middle_names}}
+      {% endif %}
+      {{person.last_name}}
+    </h2>
+    <p><b>{{person.role}}
+    {% if person.supervisors %}
+    (advised by {{ person.supervisors | array_to_sentence_string }})
+    {% endif %}
+    </b><br>
+    {% if person.lab %}
+    {{ person.lab }}<br>
+    {% endif %}
+    {% if person.institute %}
+    {{ person.institute }}<br>
+    {% endif %}
+    {% if person.university %}
+    {{ person.university }}<br>
+    {% endif %}
+    {% if person.office %}
+    {{person.office}}<br>
+    {% endif %}
+    </p>
+
+    <p>
+        <i class="far fa-envelope"></i>&nbsp;{{ person.email | obfuscate }}
+        {% if person.phone %}  
+        <br><i class="fas fa-phone"></i>&nbsp; <a href="tel:{{person.phone}}">{{person.phone}}</a>
+        {% endif %}
+    </p>
+
+    {% if person.personal_page %}
+    <i class="far fa-address-card"></i> <a href="{{ person.personal_page }}" title="Work"> Personal page </a> &nbsp;
+    {% endif %}     
+    {% if person.scholar_userid %}
+    <i class="ai ai-google-scholar"></i> <a href="https://scholar.google.com/citations?user={{ person.scholar_userid }}" title="Scholar">Google scholar </a>&nbsp;
+    {% endif %}
+    {% if person.github_username %}
+    <i class="fab fa-github"></i> <a href="https://github.com/{{ person.github_username }}" title="GitHub"> Github </a>&nbsp;
+    {% endif %}
+    {% if person.twitter_username %}
+    <i class="fab fa-twitter"></i> <a href="https://twitter.com/{{ person.twitter_username }}" title="Twitter"> Twitter </a>&nbsp;
+    {% endif %} 
+</div>
+{% if person.description %}
+{{person.description | markdownify}}
+{% endif %}
+<br>
+
+{% if person.img_promo %}
+<br>
+
+<div class="clearfix">
+    {% include figure.html path=person.img_promo title="promo image" class="img-fluid rounded z-depth-1" %}
+</div>
+{% endif %}
+
+</div>
+
+{% if person.bib_file %}
+<div class="publications">
+<h2>Selected Publications</h2>
+{% bibliography --file {{person.bib_file}} %}
+</div>
+{% endif %} 
+
