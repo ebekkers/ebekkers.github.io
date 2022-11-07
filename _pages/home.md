@@ -30,9 +30,9 @@ Erik Bekkers is an assistant professor in **Geometric Deep Learning** in the Mac
 
 **Team**
 
-* David Romero: Continuous kernel CNNs, Group equivariant networks and Self-attention networks.
-* Putri van der Linden: Geometric Deep Learning, Sparse Visual Representations
-* Rob Hesselink: Geometric Deep Learning, Graphs and Group Equivariance
-* Sharvaree Vadgama: Geometric Latent Space Modeling and Explainable AI
-* Michel Botros: AI-Based Detection and Prediction of Esophageal Cancer
+* <b>David Romero</b>: Continuous kernel CNNs, Group equivariant networks and Self-attention networks.
+* <b>Putri van der Linden</b>: Geometric Deep Learning, Sparse Visual Representations
+* <b>Rob Hesselink</b>: Geometric Deep Learning, Graphs and Group Equivariance
+* <b>Sharvaree Vadgama</b>: Geometric Latent Space Modeling and Explainable AI
+* <b>Michel Botros</b>: AI-Based Detection and Prediction of Esophageal Cancer
 
