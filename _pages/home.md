@@ -23,6 +23,7 @@ Erik Bekkers is an assistant professor in **Geometric Deep Learning** in the Mac
 
 **Research topics**
 
+* Neural Ideograms
 * Group equivariant deep learning
 * Leveraging geometry in (graph) neural networks
 * Computing with geometric quantities (manifold-valued features)
@@ -35,4 +36,5 @@ Erik Bekkers is an assistant professor in **Geometric Deep Learning** in the Mac
 * <b>Rob Hesselink</b>: Geometric Deep Learning, Graphs and Group Equivariance
 * <b>Sharvaree Vadgama</b>: Geometric Latent Space Modeling and Explainable AI
 * <b>Michel Botros</b>: AI-Based Detection and Prediction of Esophageal Cancer
+* <b>Mohammad Islam</b>: Uncertainty-aware AI-based Predictive Modeling for Treatment Decision Making
 
