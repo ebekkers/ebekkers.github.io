@@ -26,14 +26,6 @@ My current research focuses on developing generalizations and efficient implemen
 
 I am honored to have received several recognitions for my work, including the MICCAI Young Scientist Award 2018 and the Philips Impact Award (MIDL 2018). I've also been fortunate to secure two personal research grants from the Dutch Research Council (NWO): a [VENI grant](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/2019) on *Context-Aware Artificial Intelligence in Medical Image Analysis* and a [VIDI grant](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2023) on *Neural Ideograms: Shaping AI with Geometry-Grounded Learning*.
 
-<!-- Erik Bekkers is an assistant professor in Geometric Deep Learning in the Machine Learning Lab of the University of Amsterdam ([AMLab](https://amlab.science.uva.nl/), UvA). 
-
-Before this he did a post-doc in applied differential geometry at the dept. of Applied Mathematics at Technical University Eindhoven (TU/e). In his PhD thesis (cum laude, Biomedical Engineering, TU/e), he developed medical image analysis algorithms based on sub-Riemannian geometry in the Lie group SE(2) using the same mathematical principles that underlie mathematical models of human visual perception. Such mathematics find their application in machine learning where through symmetries and geometric structure, robust and efficient representation learning methods are obtained. 
-
-His current work is on generalizations and efficient implementations of group equivariant architectures and expanding the application scope of the geometric deep learning paradigm.
-
-Erik is a recipient of a MICCAI Young Scientist Award 2018, Philips Impact Award (MIDL 2018) and two personal research grants awarded by the Dutch Research Council (NWO): [VENI grant](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/2019) on *Context-Aware Artificial Intelligence in Medical Image Analysis* and [VIDI grant](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-vidi/vidi-2023) on *Neural Ideograms: Shaping AI with Geometry-Grounded Learning*. -->
-
 # Research Vision
 
 My research is driven by a fundamental observation: nearly all data is rooted in our physical world, and thus inherently grounded in geometry and physics. This suggests that representation learning should preserve this grounding to remain meaningful. For example, preserving group transformation laws and symmetries through equivariant layers is crucial in domains such as computational physics, chemistry, robotics, and medical imaging, and leads to effective and generalizable architectures and improved data efficiency. Similarly, in generative models applied to non-Euclidean data spaces, maintaining the manifold structure is essential in order to obtain meaningful samples.
