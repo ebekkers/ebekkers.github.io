@@ -34,8 +34,7 @@ This vision centers on the principle of grounding in geometry:
 
 > A representation, method, or theory is grounded in geometry if it can be amenable to geometric reasoning, that is, it abides by the mathematics of geometry and physics.
 
-
-Recently, our group took the lead in organizing the [ICML'24 GRaM workshop](https://gram-workshop.github.io/) on Geometry-Grounded Representation Learning and Generative Modeling (GRaM) to bring together researchers working on this vision. Our work focuses on several key areas:
+Recently, our group (Sharvaree Vadgama and I) initiated the [ICML'24 GRaM workshop](https://gram-workshop.github.io/) on Geometry-Grounded Representation Learning and Generative Modeling (GRaM) together with an amazing team of researchers (Alison Pouplin, Sekou-Oumar Kaba, Robin Walters, Hannah Lawrence, Tegan Emerson, Henry Kvinge, Jakub Tomczak, and Stephanie Jegelka) to bring researchers together around this vision. Our work focuses on several key areas:
 
 * **Structure-preserving learning**
   * **Preservation of symmetries**: E.g., through equivariant operators.
