@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor in Geometric Deep Learning in the Machine Learning Lab of the University of Amsterdam ([AMLab](https://amlab.science.uva.nl/), UvA).
+I am an associate professor in Geometric Deep Learning in the Machine Learning Lab of the University of Amsterdam ([AMLab](https://amlab.science.uva.nl/), UvA).
 
-Before my current position, I worked as a post-doctoral researcher in applied differential geometry at the Technical University Eindhoven (TU/e) Department of Applied Mathematics. During my PhD research at TU/e (completed cum laude in Biomedical Engineering), I focused on developing medical image analysis algorithms based on sub-Riemannian geometry in the Lie group SE(2). This work built upon the same mathematical principles that underlie models of human visual perception. I've found that these mathematical foundations are particularly valuable in machine learning, where we can leverage symmetries and geometric structure to develop robust and efficient representation learning methods.
+Before my coming to the UvA, I worked as a post-doctoral researcher in applied differential geometry at the Technical University Eindhoven (TU/e) Department of Applied Mathematics. During my PhD research at TU/e (completed cum laude in Biomedical Engineering), I focused on developing medical image analysis algorithms based on sub-Riemannian geometry in the Lie group SE(2). This work built upon the same mathematical principles that underlie models of human visual perception. I've found that these mathematical foundations are particularly valuable in machine learning, where we can leverage symmetries and geometric structure to develop robust and efficient representation learning methods.
 
 My current research focuses on developing generalizations and efficient implementations of group equivariant architectures while expanding the application scope of the geometric deep learning paradigm.
 
