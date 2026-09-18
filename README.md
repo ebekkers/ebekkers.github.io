@@ -1,6 +1,6 @@
 # ebekkers.github.io
 
-This site has moved to <https://ideal-machine-intelligence.eu/>.
+This site has moved to <https://ideal-machine-intelligence.eu/personal.html>.
 
 The repository now serves only a redirect: `index.html` for the root and
 `404.html` so that every other path under `ebekkers.github.io` redirects too.
